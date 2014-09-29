@@ -1,29 +1,40 @@
 package com.si.monitor;
 
 public class ServiceFacade {
-	public void getComposites() {
-
+	public Composite[] getComposites() {
+		return null;
 	}
 
-	public void getComposite() {
-
+	public Composite getComposite(Long dbId) {
+		return null;
 	}
 
-	public void createOrUpdatePlane() {
-
+	public Long createOrUpdatePlane(String name, Composite[] itens) {
+		return null;
 	}
 
-	public void getStateRules() {
-
+	public StateRule[] getStateRules() {
+		return null;
 	}
 
-	public void getAnalysisTypes() {
-
+	public AnalysisType[] getAnalysisTypes() {
+		return null;
 	}
 
-	public void getValues() {
-
+	public Value[] getValues() {
+		return null;
 	}
+}
+
+class TreeService {
+
+}
+
+class ServerEndPoint {
+	ServiceFacade serviceFacade;
+	public void onOpen(Session s){}
+	public void onMessage(String msg, Session session){}
+	public void onClose(Session session, boolean closeReason){}
 }
 
 class Composite {
@@ -64,3 +75,8 @@ enum CompositeType {
 enum ACTION {
 	ACTION, GET_COMPOSITES, GET_COMPOSITE, CREATE_OR_UPDATE_PLANE, GET_STATE_RULES, GET_ANALYSIS_TYPES
 }
+
+interface Session {
+	
+}
+
