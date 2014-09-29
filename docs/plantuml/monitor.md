@@ -73,3 +73,4 @@
 ![png/monitor/monitor.png](https://raw.githubusercontent.com/joao-parana/plantuml/master/docs/plantuml/png/monitor/monitor.png)	
 
 Ver documentação sobre [linguagem Swift neste link](https://developer.apple.com/swift/) 
+
