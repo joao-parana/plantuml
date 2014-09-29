@@ -70,6 +70,6 @@
 	CompositeType <- Composite
 	@enduml
 	
-![png/monitor/monitor.png](png/monitor/monitor.png)	
+![png/monitor/monitor.png](https://raw.githubusercontent.com/joao-parana/plantuml/master/docs/plantuml/png/monitor/monitor.png)	
 
-Ver documentação sobre [linguagem Swift neste link](https://developer.apple.com/library/ios/documentation/swift/conceptual/Swift_Programming_Language/TheBasics.html#//apple_ref/doc/uid/TP40014097-CH5-XID_454) 
+Ver documentação sobre [linguagem Swift neste link](https://developer.apple.com/swift/) 
