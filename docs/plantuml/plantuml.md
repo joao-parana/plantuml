@@ -1,4 +1,4 @@
-# Monitor do SOMA
+# PlantUML
 
 O PlantUML permite definir diagramas UML facilmente. Veja este exempo abaixo:
 
